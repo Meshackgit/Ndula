@@ -131,7 +131,14 @@ a{
 
 
 
-
+@media (min-width: 320px) and (max-width: 480px) {
+    header{
+        background-color: #0000;
+        position: absolute;
+        margin-top: -110%;
+        width: 100%;
+    }
+  }
 
 @media(max-width:768px){
     .hamburger{
